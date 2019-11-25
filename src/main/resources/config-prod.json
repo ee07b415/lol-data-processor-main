@@ -1,0 +1,22 @@
+{
+  "api_key": "change_this",
+  "seed": ["Santorin","JuIius","Sudzzi","JojoTheGamer","Charlatanic","Solarbacca","Ninjaken","Pomeroy","sxp","aSilverDragon","Kuuguya"],
+  "local_mode": true,
+  "file_name": {
+    "bitMap": "matchList.bin",
+    "seed": "seed.csv"
+  },
+  "gcp": {
+    "projectId": "change_this",
+    "bitMapbucket": "match_bitmap",
+    "matchBucket": "match_info",
+    "seedBucket": "match_seed",
+    "matchPubTopic": "raw-match-json",
+    "matchSubTopic": "match-job-listener"
+  },
+  "local": {
+    "bitMapfolder": "src/main/resources",
+    "matchfolder": "match_info",
+    "seedfolder": "src/main/resources"
+  }
+}
